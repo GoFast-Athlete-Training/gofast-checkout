@@ -54,10 +54,10 @@ function CheckoutForm({ selectedSite, selectedPricing, onSuccess }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [cardData, setCardData] = useState({
-    cardNumber: '',
-    expiryDate: '',
-    cvv: '',
-    cardholderName: ''
+    cardNumber: '4242 4242 4242 4242',
+    expiryDate: '12/25',
+    cvv: '123',
+    cardholderName: 'John Doe'
   });
 
   const handleChange = (e) => {
