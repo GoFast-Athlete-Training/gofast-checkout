@@ -136,7 +136,7 @@ const Success = () => {
                 Register Another Child
               </Button>
               <Button
-                onClick={() => window.location.href = 'https://parent.gofast.com'}
+                onClick={() => window.location.href = 'https://runprogramparent.gofastcrushgoals.com'}
                 className="w-full"
               >
                 Go to Parent Portal
